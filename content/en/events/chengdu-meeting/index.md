@@ -25,15 +25,16 @@ projects: []
 slides: ''
 ---
 
-This talk introduces a real-time RTPPP processing pipeline leveraging BeiDou-3 PPP-B2b broadcast corrections, combined with CNN/Transformer models for rapid seismic signal detection and magnitude estimation.
+This presentation introduces a real-time RTPPP processing pipeline leveraging BeiDou-3 PPP-B2b broadcast corrections, together with CNN/Transformer models for rapid seismic signal detection and magnitude estimation.
 
 ## Poster Summary
-The poster focuses on end-side GNSS source inversion and demonstrates robust, low-latency estimation of source parameters in real-time using GNSS data.
-- Motivation: Provide reliable source and magnitude estimates for EEW and rapid response without relying on dense networks or offline workflows.
-- Data & Processing: RTPPP stream fused with PPP-B2b corrections to enable continuous, low-latency cleaning and time-series feature extraction.
-- Method: Balance physics constraints with data-driven modeling to build an inversion pipeline tailored for GNSS time series, emphasizing robustness and generalization.
-- Case Studies: Dingri and Mandalay events show low-latency source and magnitude estimates with cross-event generalization.
-- Engineering: End-to-end pipeline for streaming, feature engineering, inference, and visualization to support decisions and follow-up analysis.
+This poster focuses on end-side GNSS intelligent source inversion. Using the 2025 Tibet Dingri Mw 7.1 and Myanmar Mandalay Mw 7.9 earthquakes as case studies, it demonstrates fast and robust source-parameter estimation from GNSS data in real-time scenarios.
+
+- Motivation: Provide reliable source and magnitude estimates for EEW and rapid assessment without relying on dense networks or offline workflows.
+- Data & Processing: Use RTPPP streams and fuse PPP-B2b broadcast corrections to enable continuous, low-latency cleaning and time-series feature extraction.
+- Method: Balance physics constraints with data-driven modeling to build an inversion pipeline tailored to GNSS time series, emphasizing robustness and generalization.
+- Case Studies: Dingri and Mandalay events demonstrate low-latency source/magnitude estimation and cross-event generalization.
+- Engineering: Build an end-to-end workflow for streaming, feature engineering, inference, and visualization to support rapid decisions.
 
 ## Contributions
 - Propose an end-side GNSS inversion approach to reduce dependencies and improve timeliness.
@@ -46,6 +47,3 @@ The poster focuses on end-side GNSS source inversion and demonstrates robust, lo
 3. Feature Extraction: source-oriented time/frequency features
 4. Estimation & Correction: end-side intelligent inversion + physics consistency checks
 5. Output & Visualization: source parameters with uncertainty, result delivery
-
-## Poster Figure
-![Poster illustration](/events/chengdu-meeting/img1.jpg)

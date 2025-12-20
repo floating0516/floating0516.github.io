@@ -54,4 +54,4 @@ We present an end-side integrated solution for real-time GNSS and seismic monito
 5. Output & Presentation: result delivery, visualization, and uncertainty
 
 ## Poster Figure
-![Poster illustration](img1.jpg)
+![Poster illustration](/events/qingdao-meeting/img1.jpg)

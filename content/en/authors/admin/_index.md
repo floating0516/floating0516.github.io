@@ -7,7 +7,7 @@ status:
   icon: 🎓
 superuser: true
 highlight_name: true
-role: Postgraduate Student (Class of 2024)
+role: MSc Student (Class of 2024)
 organizations:
   - name: Southern University of Science and Technology
     url: https://www.sustech.edu.cn/
@@ -23,39 +23,41 @@ profiles:
     url: https://orcid.org/0009-0002-5144-7251
 interests:
   - Machine Learning
-  - Natural Language Processing
-  - Computer Vision
+  - Real-time GNSS Data Processing
+  - Geohazard Early Warning
 education:
-  - area: M.S. Student
-    institution: Southern University of Science and Technology (SUSTech)
+  - area: MSc (in progress) | Geophysics
+    institution: Southern University of Science and Technology
     icon: ""
     date_start: 2024-09-01
     date_end: ''
     summary: |
-      **Focus:** Intersection of Deep Learning and Real-Time GNSS (RT-GNSS) for geohazard mitigation.
+      **Research direction:** Deep learning and real-time GNSS (RT-GNSS) for geohazard monitoring.
 
-      **Research:** Developing earthquake early warning models using Deep Learning architectures (CNNs & Transformers) based on high-rate GNSS streams.
+      **Core topic:** Developing earthquake early warning and rapid magnitude estimation models from high-rate GNSS streams using CNN and Transformer architectures.
 
       **Courses:** Digital Signal Processing, Geostatistics, Data Communication & Analysis.
 
-  - area: B.Eng. in Geo-information Science and Technology
-    institution: China University of Mining and Technology, Beijing (CUMTB)
+  - area: BEng | Engineering
+    institution: China University of Mining and Technology (Beijing)
     icon: ""
     date_start: 2020-09-01
     date_end: 2024-07-01
     summary: |
-      **Overview:** Built a robust foundation in both Geomatics and Computer Science.
-      
-      **Key Coursework:** Spatial Data Modeling, Numerical Analysis, Data Structures, Database Systems, and Object-Oriented Programming (Java).
+      **Major:** Geo-information Science and Technology
+
+      **Background:** Built a solid foundation in mathematics and programming, integrating geoscience knowledge with information technology.
+
+      **Key courses:** Spatial Data Modeling, Numerical Analysis, Data Structures, Database Systems, and Java Programming.
 skills:
   - name: Technical Skills
     items:
       - name: Deep Learning
-        description: 'Experienced with CNN and Transformer architectures; focus on geoscience time-series forecasting and fine-tuning.'
+        description: 'Experienced with CNN and Transformer architectures; focus on geoscience time-series modeling and fine-tuning.'
         percent: 85
         icon: hero/chart-bar
       - name: GNSS Data Processing
-        description: 'Familiar with RTPPP algorithms, broadcast/precise ephemeris, and RTKLIB/BNC development.'
+        description: 'Familiar with RTPPP algorithms, broadcast/precise corrections, and RTKLIB/BNC development.'
         percent: 90
         icon: hero/signal
       - name: Development & Visualization
@@ -67,7 +69,7 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Academic Writing & Communication
-        description: 'Strong Chinese/English paper writing, logical structuring, and figure/table design.'
+        description: 'Strong Chinese/English academic writing, logical structuring, and figure/table design.'
         percent: 80
         icon: hero/book-open
 languages:
@@ -85,4 +87,4 @@ awards:
       Summarize award highlights here.
 ---
 
-Postgraduate student at SUSTech focusing on machine learning, NLP, and computer vision. Experienced in GNSS data processing and scientific software development.
+This is the English bio section. It supports Markdown formatting.
