@@ -6,15 +6,15 @@ title: Alex Johnson
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Li He
+# last_name: Johnson
 
-# Pronouns (optional)
-pronouns: he/him
+# # Pronouns (optional)
+# pronouns: he/him
 
 # Status emoji
-status:
-  icon: 🚀
+# status:
+#   icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,35 +23,35 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Postgraduate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Southern University of Science and Technology
+    url: https://www.sustech.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:lihe12100@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  # - icon: brands/x
+  #   url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://github.com/floating0516
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/lihe12100/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=floating0516
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/my-orcid?orcid=0009-0002-5144-7251
 
 interests:
   - Large Language Models
   - Computer Vision
   - Reinforcement Learning
-  - AI Ethics
+  - Global Navigation Satellite System (GNSS)
 
 education:
   - area: PhD Computer Science (AI Focus)
@@ -153,6 +153,8 @@ awards:
     icon: hero/trophy
     summary: |
       Awarded for groundbreaking work on efficient training of large models.
+
+      ![Certificate](/authors/admin/Certificate.jpg)
   - title: AI Innovation Grant
     url: https://www.nsf.gov/
     date: '2021-06-15'

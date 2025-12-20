@@ -6,10 +6,11 @@ links:
     url: https://github.com/pandas-dev/pandas
 tags:
   - Hugo
-  - HugoBlox
   - Markdown
+  - Python
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures and tools for working with structured data.
 
 <!--more-->
+
