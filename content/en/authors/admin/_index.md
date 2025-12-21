@@ -78,13 +78,19 @@ languages:
   - name: English
     percent: 80
 awards:
-  - title: Sample Award
+  - title: Outstanding Oral (Lightning Talk) / Poster Presentation Award
     url: ''
-    date: '2024-12-01'
-    awarder: Sample Institution
-    icon: hero/trophy
+    date: '2025-05-20'
+    awarder: Geodesy & Navigation Comprehensive Academic Annual Meeting 2025
     summary: |
-      Summarize award highlights here.
+      ![Certificate](/authors/admin/Certificate.jpg)
+
+  - title: Outstanding Individual, "Observing Clouds and Understanding Weather" Summer Social Practice 2025
+    url: ''
+    date: '2025-10-15'
+    awarder: Youth League Committee, Southern University of Science and Technology
+    summary: |
+      ![Certificate](/authors/admin/SocialPractice.png)
 ---
 
 This is the English bio section. It supports Markdown formatting.
