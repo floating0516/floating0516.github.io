@@ -26,7 +26,7 @@ en:
         weight: 20
       - name: Projects
         url: '/en/projects/'
-        weight: 30
+        weight: 20
 # Uncomment the lines below to configure your website in a second language.
 zh:
   languageCode: zh-Hans
@@ -50,4 +50,4 @@ zh:
         weight: 20
       - name: 项目
         url: '/projects/'
-        weight: 30
+        weight: 20

@@ -1,0 +1,6 @@
+@media (width >= 64rem) {
+  .page-body .prose > h1.lg\:text-6xl {
+    font-size: var(--text-4xl) !important;
+    line-height: var(--tw-leading, var(--text-4xl--line-height)) !important;
+  }
+}

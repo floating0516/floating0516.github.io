@@ -95,15 +95,25 @@ languages:
   - name: 英文
     percent: 80
 awards:
-  - title: 奖项示例
+  - title: 年会优秀口头（闪送）/ 张贴报告奖
     url: ''
-    date: '2024-12-01'
-    awarder: 示例机构
-    icon: hero/trophy
+    date: '2025-05-20'
+    awarder: 大地测量与导航 2025 综合学术年会
+    # icon: hero/trophy
     summary: |
-      用中文简述该奖项与成果亮点。
+      
 
       ![证书图片](/authors/admin/Certificate.jpg)
+
+  - title: 2025 年 “观云识天” 暑期社会实践 优秀个人
+    url: ''
+    date: '2025-10-15'
+    awarder: 南方科技大学共青团
+    # icon: hero/trophy
+    summary: |
+      
+
+      ![证书图片](/authors/admin/SocialPractice.png)
 ---
 
 这里是中文作者简介的正文区域，可用 Markdown 进行排版。
