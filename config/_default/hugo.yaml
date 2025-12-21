@@ -6,7 +6,7 @@
 # Website name
 title: 学术个人主页（Hugo Academic CV）
 # Website URL
-baseURL: 'http://localhost:1313/'
+baseURL: 'https://floating0516.github.io/'
 
 ############################
 ## LANGUAGE
