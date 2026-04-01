@@ -1,174 +1,99 @@
 ---
-# Display name
-title: Alex Johnson
-
-# Name pronunciation (optional)
-name_pronunciation: ''
-
-# Full name (for SEO)
-first_name: Li He
-# last_name: Johnson
-
-# # Pronouns (optional)
-# pronouns: he/him
-
-# Status emoji
-# status:
-#   icon: 🚀
-
-# Is this the primary user of the site?
+title: 李贺
+first_name: 李
+last_name: 贺
+pronouns: ''
+status:
+  icon: 🎓
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
-
-# Role/position/tagline
-role: Postgraduate
-
-# Organizations/Affiliations to display in Biography blox
+role: 2024级研究生
 organizations:
-  - name: Southern University of Science and Technology
-    url: https://www.sustech.edu.cn/
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+  - name: 南方科技大学
+    url: 'https://www.sustech.edu.cn/'
 profiles:
   - icon: at-symbol
     url: 'mailto:lihe12100@gmail.com'
-    label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/AlexAIResearch
+    label: 电子邮件
   - icon: brands/github
     url: https://github.com/floating0516
-  # - icon: brands/linkedin
-  #   url: https://www.linkedin.com/in/lihe12100/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=floating0516
   - icon: academicons/orcid
-    url: https://orcid.org/my-orcid?orcid=0009-0002-5144-7251
+    url: https://orcid.org/0009-0002-5144-7251
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - Global Navigation Satellite System (GNSS)
-
+  - 机器学习
+  - 实时GNSS数据处理
+  - 地质灾害预警
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: 硕士（在读） | 地球物理
+    institution: 南方科技大学
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
-    summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
-
-work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
+    date_start: 2024-09-01
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      **研究方向：** 深度学习与实时 GNSS (RT-GNSS) 在地质灾害监测中的应用。
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+      **核心课题：** 致力于利用 CNN 和 Transformer 架构处理高频 GNSS 数据，构建地震预警与震级快速估计模型。
+
+      **主修课程：** 数字信号处理、地理统计学、数据通信与处理。
+
+  - area: 学士 | 工学学士
+    institution: 中国矿业大学（北京）
+    icon: ""
+    date_start: 2020-09-01
+    date_end: 2024-07-01
+    summary: |
+      **主修专业：** 地球信息科学与技术
+
+      **学术背景：** 建立了扎实的数理基础与计算机编程能力，实现了地学知识与信息技术的融合。
+
+      **核心课程：** 空间数据建模、数值分析、数据结构、数据库系统原理、Java 程序设计。
 skills:
-  - name: Technical Skills
+  - name: 专业技能
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
+      - name: 深度学习 (Deep Learning)
+        description: '擅长 CNN 与 Transformer 架构设计，专注于地学时间序列预测与模型微调。'
         percent: 85
-        icon: cloud
-  - name: Hobbies
+        icon: hero/chart-bar
+      - name: GNSS 数据处理
+        description: '熟悉 RTPPP 算法、广播星历/精密星历处理及 RTKLIB/BNC 二次开发。'
+        percent: 90
+        icon: hero/signal
+      - name: 开发与可视化
+        description: '熟练掌握 Python/C++ 混合编程、Linux 环境部署及 PyGMT 科研绘图。'
+        percent: 80
+        icon: hero/command-line
+  - name: 综合素质
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
-        description: ''
+      - name: 学术写作与交流
+        description: '具备良好的中英文论文撰写、逻辑梳理及图表美化能力。'
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
-
+        icon: hero/book-open
 languages:
-  - name: English
+  - name: 中文
     percent: 100
-  - name: Spanish
-    percent: 50
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+  - name: 英文
+    percent: 80
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
+  - title: 年会优秀口头（闪送）/ 张贴报告奖
+    url: ''
+    date: '2025-05-20'
+    awarder: 大地测量与导航 2025 综合学术年会
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
+      ![证书图片](/authors/admin/Certificate.jpg)
 
-      ![Certificate](/authors/admin/Certificate.jpg)
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+  - title: 2025 年“观云识天”暑期社会实践优秀个人
+    url: ''
+    date: '2025-10-15'
+    awarder: 南方科技大学共青团
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      ![证书图片](/authors/admin/SocialPractice.png)
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+我目前在南方科技大学攻读地球物理方向硕士，主要关注人工智能与实时 GNSS 数据处理的交叉研究，尤其是面向地质灾害监测、地震预警与快速震级估计的模型构建与系统实现。我的兴趣集中在高频时间序列建模、实时流式计算，以及 AI for Science 在防灾减灾场景中的应用。
+
+本科阶段，我接受了较系统的空间信息与计算机技术训练，这也影响了我当前的研究方式：既关注问题本身，也重视工程实现、代码质量与实验的可复现性。除了课题研究，我也长期使用 Linux，持续积累 Python、C++ 与科学可视化相关的开发经验。

@@ -93,4 +93,6 @@ awards:
       ![Certificate](/authors/admin/SocialPractice.png)
 ---
 
-This is the English bio section. It supports Markdown formatting.
+I am currently pursuing an MSc in Geophysics at Southern University of Science and Technology, with a research focus on the intersection of artificial intelligence and real-time GNSS data processing. My current work centers on building models and systems for geohazard monitoring, earthquake early warning, and rapid magnitude estimation. I am particularly interested in high-rate time-series modeling, real-time stream computing, and AI for Science applications in disaster mitigation.
+
+My undergraduate training in spatial information science and computer technology continues to shape how I approach research today: I care not only about the scientific problem itself, but also about implementation quality, clean code, and reproducible experimentation. Beyond my academic work, I am a long-time Linux user and enjoy building research tools with Python, C++, and scientific visualization workflows.

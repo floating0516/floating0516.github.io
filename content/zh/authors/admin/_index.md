@@ -1,7 +1,7 @@
 ---
-title: 李 贺
-first_name: 李贺
-last_name: 12100
+title: 李贺
+first_name: 李
+last_name: 贺
 pronouns: ''
 status:
   icon: 🎓
@@ -22,24 +22,23 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0002-5144-7251
 
-
 interests:
   - 机器学习
   - 实时GNSS数据处理
   - 地质灾害预警
 education:
-  - area: 硕士 (在读) | 地球物理 
+  - area: 硕士（在读） | 地球物理
     institution: 南方科技大学
     icon: ""
     date_start: 2024-09-01
-    date_end: '' # 在读状态留空或填 'Present'
+    date_end: ''
     summary: |
       **研究方向：** 深度学习与实时 GNSS (RT-GNSS) 在地质灾害监测中的应用。
 
       **核心课题：** 致力于利用 CNN 和 Transformer 架构处理高频 GNSS 数据，构建地震预警与震级快速估计模型。
 
       **主修课程：** 数字信号处理、地理统计学、数据通信与处理。
-      
+
   - area: 学士 | 工学学士
     institution: 中国矿业大学（北京）
     icon: ""
@@ -51,43 +50,28 @@ education:
       **学术背景：** 建立了扎实的数理基础与计算机编程能力，实现了地学知识与信息技术的融合。
 
       **核心课程：** 空间数据建模、数值分析、数据结构、数据库系统原理、Java 程序设计。
-# work:
-#   - position: 职位示例
-#     company_name: 公司或课题组
-#     company_url: ''
-#     icon: ''
-#     date_start: 2023-01-01
-#     date_end: ''
-#     summary: |
-#       工作或研究经历的中文简介，包含职责与成果要点。
 skills:
   - name: 专业技能
     items:
       - name: 深度学习 (Deep Learning)
-        # 强调架构和针对科学数据的应用
         description: '擅长 CNN 与 Transformer 架构设计，专注于地学时间序列预测与模型微调。'
         percent: 85
         icon: hero/chart-bar
-        
       - name: GNSS 数据处理
-        # 突出核心技术点：精密单点定位和数据流
         description: '熟悉 RTPPP 算法、广播星历/精密星历处理及 RTKLIB/BNC 二次开发。'
         percent: 90
         icon: hero/signal
-        
       - name: 开发与可视化
-        # 结合了 Linux 环境和具体工具
         description: '熟练掌握 Python/C++ 混合编程、Linux 环境部署及 PyGMT 科研绘图。'
         percent: 80
         icon: hero/command-line
-
   - name: 综合素质
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: 学术写作与交流
         description: '具备良好的中英文论文撰写、逻辑梳理及图表美化能力。'
-        percent: 80 # 这是一个谦虚但自信的分数
+        percent: 80
         icon: hero/book-open
 languages:
   - name: 中文
@@ -99,21 +83,17 @@ awards:
     url: ''
     date: '2025-05-20'
     awarder: 大地测量与导航 2025 综合学术年会
-    # icon: hero/trophy
     summary: |
-      
-
       ![证书图片](/authors/admin/Certificate.jpg)
 
-  - title: 2025 年 “观云识天” 暑期社会实践 优秀个人
+  - title: 2025 年“观云识天”暑期社会实践优秀个人
     url: ''
     date: '2025-10-15'
     awarder: 南方科技大学共青团
-    # icon: hero/trophy
     summary: |
-      
-
       ![证书图片](/authors/admin/SocialPractice.png)
 ---
 
-这里是中文作者简介的正文区域，可用 Markdown 进行排版。
+我目前在南方科技大学攻读地球物理方向硕士，主要关注人工智能与实时 GNSS 数据处理的交叉研究，尤其是面向地质灾害监测、地震预警与快速震级估计的模型构建与系统实现。我的兴趣集中在高频时间序列建模、实时流式计算，以及 AI for Science 在防灾减灾场景中的应用。
+
+本科阶段，我接受了较系统的空间信息与计算机技术训练，这也影响了我当前的研究方式：既关注问题本身，也重视工程实现、代码质量与实验的可复现性。除了课题研究，我也长期使用 Linux，持续积累 Python、C++ 与科学可视化相关的开发经验。
