@@ -91,6 +91,20 @@ awards:
     awarder: Youth League Committee, Southern University of Science and Technology
     summary: |
       ![Certificate](/authors/admin/SocialPractice.png)
+
+  - title: Volunteer Service Certificate
+    url: ''
+    date: '2025-12-01'
+    awarder: Guangdong Division Executive Committee for the 15th National Games and the 12th National Games for Persons with Disabilities & 9th National Special Olympic Games
+    summary: |
+      ![Certificate](/authors/admin/volunteer-certificate.png)
+
+  - title: Acceptance Certificate for Representative Student Paper Collection of the China Geoscience Union Annual Meeting
+    url: ''
+    date: '2025-10-01'
+    awarder: China Geoscience Union Annual Meeting
+    summary: |
+      ![Certificate](/authors/admin/cgs-certificate.jpeg)
 ---
 
 I am currently pursuing an MSc in Geophysics at Southern University of Science and Technology, with a research focus on the intersection of artificial intelligence and real-time GNSS data processing. My current work centers on building models and systems for geohazard monitoring, earthquake early warning, and rapid magnitude estimation. I am particularly interested in high-rate time-series modeling, real-time stream computing, and AI for Science applications in disaster mitigation.

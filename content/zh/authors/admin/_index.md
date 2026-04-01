@@ -92,6 +92,20 @@ awards:
     awarder: 南方科技大学共青团
     summary: |
       ![证书图片](/authors/admin/SocialPractice.png)
+
+  - title: 赛会志愿者服务证书
+    url: ''
+    date: '2025-12-01'
+    awarder: 第十五届全国运动会广东赛区执行委员会大型活动和志愿服务部、全国第十二届残疾人运动会暨第九届特殊奥林匹克运动会广东赛区执行委员会大型活动和志愿服务部
+    summary: |
+      ![证书图片](/authors/admin/volunteer-certificate.png)
+
+  - title: 《中国地球科学联合学术年会代表性学生论文集》录用证书
+    url: ''
+    date: '2025-10-01'
+    awarder: 中国地球科学联合学术年会
+    summary: |
+      ![证书图片](/authors/admin/cgs-certificate.jpeg)
 ---
 
 我目前在南方科技大学攻读地球物理方向硕士，主要关注人工智能与实时 GNSS 数据处理的交叉研究，尤其是面向地质灾害监测、地震预警与快速震级估计的模型构建与系统实现。我的兴趣集中在高频时间序列建模、实时流式计算，以及 AI for Science 在防灾减灾场景中的应用。
