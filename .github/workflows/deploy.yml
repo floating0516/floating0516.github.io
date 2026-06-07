@@ -41,13 +41,15 @@ jobs:
     - name: Setup pnpm
       if: hashFiles('package.json') != ''
       uses: pnpm/action-setup@v4
+      with:
+        version: 10.14.0
 
     - name: Install dependencies
       run: |
-        # Install Tailwind CLI if package.json exists
+        # Install Tailwind dependencies if package.json exists
         if [ -f "package.json" ]; then
-          echo "Installing Tailwind dependencies..."
-          pnpm install || npm install
+          echo "Installing Tailwind dependencies with pnpm..."
+          pnpm install --frozen-lockfile
         fi
 
     - name: Setup Hugo
@@ -63,8 +65,7 @@ jobs:
           /tmp/hugo_cache_runner/
           node_modules/
           modules/*/node_modules/
-        key: ${{ runner.os }}-hugo-deps-${{ hashFiles('**/go.mod', '**/package-lock.json',
-          '**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-hugo-deps-${{ hashFiles('**/go.mod', '**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-hugo-deps-
 
@@ -92,7 +93,7 @@ jobs:
       run: |
         # Check if site uses Pagefind search
         if [ -f "package.json" ] && grep -q "pagefind" package.json; then
-          pnpm dlx pagefind --source "public" || npx pagefind --source "public"
+          pnpm exec pagefind --site "public"
         fi
 
     - name: Upload artifact
