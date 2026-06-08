@@ -85,12 +85,12 @@ awards:
     summary: |
       ![Certificate](/authors/admin/changsha-award-2026.jpg)
 
-  - title: Outstanding Oral (Lightning Talk) / Poster Presentation Award
+  - title: Volunteer Service Certificate
     url: ''
-    date: '2025-05-20'
-    awarder: Geodesy & Navigation Comprehensive Academic Annual Meeting 2025
+    date: '2025-12-01'
+    awarder: Guangdong Division Executive Committee for the 15th National Games and the 12th National Games for Persons with Disabilities & 9th National Special Olympic Games
     summary: |
-      ![Certificate](/authors/admin/Certificate.jpg)
+      ![Certificate](/authors/admin/volunteer-certificate.png)
 
   - title: Outstanding Individual, "Observing Clouds and Understanding Weather" Summer Social Practice 2025
     url: ''
@@ -99,19 +99,19 @@ awards:
     summary: |
       ![Certificate](/authors/admin/SocialPractice.png)
 
-  - title: Volunteer Service Certificate
-    url: ''
-    date: '2025-12-01'
-    awarder: Guangdong Division Executive Committee for the 15th National Games and the 12th National Games for Persons with Disabilities & 9th National Special Olympic Games
-    summary: |
-      ![Certificate](/authors/admin/volunteer-certificate.png)
-
   - title: Acceptance Certificate for Representative Student Paper Collection of the China Geoscience Union Annual Meeting
     url: ''
     date: '2025-10-01'
     awarder: China Geoscience Union Annual Meeting
     summary: |
       ![Certificate](/authors/admin/cgs-certificate.jpeg)
+
+  - title: Outstanding Oral (Lightning Talk) / Poster Presentation Award
+    url: ''
+    date: '2025-05-20'
+    awarder: Geodesy & Navigation Comprehensive Academic Annual Meeting 2025
+    summary: |
+      ![Certificate](/authors/admin/Certificate.jpg)
 ---
 
 I am currently pursuing an MSc in Geophysics at Southern University of Science and Technology, focusing on the intersection of artificial intelligence and real-time high-rate GNSS processing. My work targets earthquake early warning, rapid magnitude estimation, and geohazard monitoring by extracting reliable spatiotemporal features from continuous GNSS displacement series and turning them into low-latency, interpretable monitoring results.

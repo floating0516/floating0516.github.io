@@ -86,12 +86,12 @@ awards:
     summary: |
       ![证书图片](/authors/admin/changsha-award-2026.jpg)
 
-  - title: 年会优秀口头（闪送）/ 张贴报告奖
+  - title: 赛会志愿者服务证书
     url: ''
-    date: '2025-05-20'
-    awarder: 大地测量与导航 2025 综合学术年会
+    date: '2025-12-01'
+    awarder: 第十五届全国运动会广东赛区执行委员会大型活动和志愿服务部、全国第十二届残疾人运动会暨第九届特殊奥林匹克运动会广东赛区执行委员会大型活动和志愿服务部
     summary: |
-      ![证书图片](/authors/admin/Certificate.jpg)
+      ![证书图片](/authors/admin/volunteer-certificate.png)
 
   - title: 2025 年“观云识天”暑期社会实践优秀个人
     url: ''
@@ -100,19 +100,19 @@ awards:
     summary: |
       ![证书图片](/authors/admin/SocialPractice.png)
 
-  - title: 赛会志愿者服务证书
-    url: ''
-    date: '2025-12-01'
-    awarder: 第十五届全国运动会广东赛区执行委员会大型活动和志愿服务部、全国第十二届残疾人运动会暨第九届特殊奥林匹克运动会广东赛区执行委员会大型活动和志愿服务部
-    summary: |
-      ![证书图片](/authors/admin/volunteer-certificate.png)
-
   - title: 《中国地球科学联合学术年会代表性学生论文集》录用证书
     url: ''
     date: '2025-10-01'
     awarder: 中国地球科学联合学术年会
     summary: |
       ![证书图片](/authors/admin/cgs-certificate.jpeg)
+
+  - title: 年会优秀口头（闪送）/ 张贴报告奖
+    url: ''
+    date: '2025-05-20'
+    awarder: 大地测量与导航 2025 综合学术年会
+    summary: |
+      ![证书图片](/authors/admin/Certificate.jpg)
 ---
 
 我目前在南方科技大学攻读地球物理方向硕士，主要研究人工智能与实时高率 GNSS 数据处理的交叉问题。我的工作面向地震预警、快速震级估计和地质灾害监测，关注如何从连续 GNSS 位移序列中提取可靠的时空特征，并将其转化为低延迟、可解释的监测结果。
