@@ -7,7 +7,7 @@ status:
   icon: 🎓
 superuser: true
 highlight_name: true
-role: MSc Student (Class of 2024)
+role: MSc Student in Geophysics
 organizations:
   - name: Southern University of Science and Technology
     url: https://www.sustech.edu.cn/
@@ -22,9 +22,9 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0002-5144-7251
 interests:
-  - Machine Learning
-  - Real-time GNSS Data Processing
-  - Geohazard Early Warning
+  - Deep Learning for Geoscience Time Series
+  - Real-time High-rate GNSS Processing
+  - Earthquake Early Warning and Rapid Magnitude Estimation
 education:
   - area: MSc (in progress) | Geophysics
     institution: Southern University of Science and Technology
@@ -32,9 +32,9 @@ education:
     date_start: 2024-09-01
     date_end: ''
     summary: |
-      **Research direction:** Deep learning and real-time GNSS (RT-GNSS) for geohazard monitoring.
+      **Research direction:** Data-driven geodesy, real-time high-rate GNSS, and seismic hazard monitoring.
 
-      **Core topic:** Developing earthquake early warning and rapid magnitude estimation models from high-rate GNSS streams using CNN and Transformer architectures.
+      **Core topic:** Using CNN, Transformer, and related deep learning models to analyze GNSS displacement time series for low-latency earthquake early warning and rapid magnitude estimation.
 
       **Courses:** Digital Signal Processing, Geostatistics, Data Communication & Analysis.
 
@@ -46,22 +46,22 @@ education:
     summary: |
       **Major:** Geo-information Science and Technology
 
-      **Background:** Built a solid foundation in mathematics and programming, integrating geoscience knowledge with information technology.
+      **Background:** Trained in spatial information, numerical computing, and programming, providing a foundation for real-time GNSS data processing and research software development.
 
       **Key courses:** Spatial Data Modeling, Numerical Analysis, Data Structures, Database Systems, and Java Programming.
 skills:
   - name: Technical Skills
     items:
       - name: Deep Learning
-        description: 'Experienced with CNN and Transformer architectures; focus on geoscience time-series modeling and fine-tuning.'
+        description: 'Applying CNN and Transformer architectures to GNSS displacement time-series modeling.'
         percent: 85
         icon: hero/chart-bar
       - name: GNSS Data Processing
-        description: 'Familiar with RTPPP algorithms, broadcast/precise corrections, and RTKLIB/BNC development.'
+        description: 'Working with RTPPP, PPP-B2b corrections, broadcast/precise ephemerides, and RTKLIB/BNC workflows.'
         percent: 90
         icon: hero/signal
       - name: Development & Visualization
-        description: 'Python/C++ mixed programming, Linux deployment, and scientific plotting with PyGMT.'
+        description: 'Building reproducible data-processing, analysis, and scientific visualization workflows with Python/C++, Linux, and PyGMT.'
         percent: 80
         icon: hero/command-line
   - name: Soft Skills
@@ -69,7 +69,7 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Academic Writing & Communication
-        description: 'Strong Chinese/English academic writing, logical structuring, and figure/table design.'
+        description: 'Research framing, experimental result organization, and Chinese/English technical writing.'
         percent: 80
         icon: hero/book-open
 languages:
@@ -107,6 +107,6 @@ awards:
       ![Certificate](/authors/admin/cgs-certificate.jpeg)
 ---
 
-I am currently pursuing an MSc in Geophysics at Southern University of Science and Technology, with a research focus on the intersection of artificial intelligence and real-time GNSS data processing. My current work centers on building models and systems for geohazard monitoring, earthquake early warning, and rapid magnitude estimation. I am particularly interested in high-rate time-series modeling, real-time stream computing, and AI for Science applications in disaster mitigation.
+I am currently pursuing an MSc in Geophysics at Southern University of Science and Technology, focusing on the intersection of artificial intelligence and real-time high-rate GNSS processing. My work targets earthquake early warning, rapid magnitude estimation, and geohazard monitoring by extracting reliable spatiotemporal features from continuous GNSS displacement series and turning them into low-latency, interpretable monitoring results.
 
-My undergraduate training in spatial information science and computer technology continues to shape how I approach research today: I care not only about the scientific problem itself, but also about implementation quality, clean code, and reproducible experimentation. Beyond my academic work, I am a long-time Linux user and enjoy building research tools with Python, C++, and scientific visualization workflows.
+My undergraduate training in spatial information science and computation shapes how I approach research: I care about the geoscience question, the data pipeline, the implementation, and the reproducibility of experiments. Beyond my academic work, I am a long-time Linux user and continue to build experience with Python, C++, real-time stream processing, and scientific visualization.

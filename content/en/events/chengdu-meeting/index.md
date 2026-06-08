@@ -1,9 +1,9 @@
 ---
-title: "GNSS End-Side Source Inversion: Case Studies of 2025 Tibet Dingri Mw 7.1 and Myanmar Mandalay Mw 7.9"
+title: "Edge-Side GNSS Source Inversion: Case Studies of the 2025 Tibet Dingri Mw 7.1 and Myanmar Mandalay Mw 7.9 Earthquakes"
 event: "2025 China Geoscience Union Annual Meeting"
 event_url: ''
 location: "Chengdu, China"
-summary: "Demonstrates end-side GNSS source inversion and rapid magnitude estimation based on RTPPP + PPP-B2b, with Dingri Mw 7.1 and Mandalay Mw 7.9 case studies."
+summary: "Presents edge-side GNSS source inversion and rapid magnitude estimation using RTPPP and PPP-B2b, with Dingri Mw 7.1 and Mandalay Mw 7.9 case studies."
 date: '2025-10-18T08:00:00+08:00'
 publishDate: '2025-11-30T00:00:00+08:00'
 date_end: '2025-10-22T17:00:00+08:00'
@@ -25,25 +25,20 @@ projects: []
 slides: ''
 ---
 
-This presentation introduces a real-time RTPPP processing pipeline leveraging BeiDou-3 PPP-B2b broadcast corrections, together with CNN/Transformer models for rapid seismic signal detection and magnitude estimation.
+This presentation introduces a real-time precise point positioning (RTPPP) processing pipeline using BeiDou-3 PPP-B2b broadcast corrections. With the 2025 Tibet Dingri Mw 7.1 and Myanmar Mandalay Mw 7.9 earthquakes as case studies, it discusses how GNSS displacement series can support rapid source inversion and magnitude estimation.
 
 ## Poster Summary
-This poster focuses on end-side GNSS intelligent source inversion. Using the 2025 Tibet Dingri Mw 7.1 and Myanmar Mandalay Mw 7.9 earthquakes as case studies, it demonstrates fast and robust source-parameter estimation from GNSS data in real-time scenarios.
 
-- Motivation: Provide reliable source and magnitude estimates for EEW and rapid assessment without relying on dense networks or offline workflows.
-- Data & Processing: Use RTPPP streams and fuse PPP-B2b broadcast corrections to enable continuous, low-latency cleaning and time-series feature extraction.
-- Method: Balance physics constraints with data-driven modeling to build an inversion pipeline tailored to GNSS time series, emphasizing robustness and generalization.
-- Case Studies: Dingri and Mandalay events demonstrate low-latency source/magnitude estimation and cross-event generalization.
-- Engineering: Build an end-to-end workflow for streaming, feature engineering, inference, and visualization to support rapid decisions.
+The poster focuses on edge-side GNSS intelligent source inversion. In real-time scenarios, the workflow ingests RTPPP streams, fuses PPP-B2b broadcast corrections, and performs low-latency cleaning, time-series feature extraction, model inference, and visualization. The Dingri and Mandalay events are used to evaluate feasibility, stability, and cross-event applicability on real strong-earthquake cases.
 
 ## Contributions
-- Propose an end-side GNSS inversion approach to reduce dependencies and improve timeliness.
-- Validate feasibility and robustness on real strong earthquakes.
-- Provide a reusable engineering pipeline for EEW and rapid assessment.
+- Explore an edge-side source inversion workflow for GNSS displacement series, reducing dependence on offline processing chains.
+- Evaluate the feasibility and robustness of rapid source/magnitude estimation on two strong-earthquake cases.
+- Provide an engineering pipeline for real-time streams, feature engineering, inference, and visualization to support EEW and rapid post-event assessment.
 
 ## Workflow Overview
 1. Data Ingestion: RTPPP stream + PPP-B2b corrections
 2. Preprocessing: quality control, noise suppression, baseline/drift correction
 3. Feature Extraction: source-oriented time/frequency features
-4. Estimation & Correction: end-side intelligent inversion + physics consistency checks
+4. Estimation & Correction: edge-side intelligent inversion + physics consistency checks
 5. Output & Visualization: source parameters with uncertainty, result delivery
