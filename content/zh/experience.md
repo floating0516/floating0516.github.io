@@ -15,7 +15,7 @@ sections:
       is_education_first: false
   - block: resume-skills
     content:
-      title: 技能与兴趣
+      title: 技能与研究兴趣
       username: admin
     design:
       show_skill_percentage: false

@@ -15,7 +15,7 @@ sections:
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Skills & Research Interests
       username: admin
     design:
       show_skill_percentage: false

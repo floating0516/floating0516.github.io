@@ -12,11 +12,11 @@ sections:
     content:
       username: admin
       text: |-
-        I am a master’s student in the [Chen Kejie Group](https://faculty.sustech.edu.cn/?tagid=chenkj&iscss=1&snapid=1&orderby=date&go=2) at Southern University of Science and Technology (SUSTech), exploring the intersection of Artificial Intelligence and Geodesy (GNSS).
+        I am an MSc student in Geophysics in the [Chen Kejie Group](https://faculty.sustech.edu.cn/?tagid=chenkj&iscss=1&snapid=1&orderby=date&go=2) at Southern University of Science and Technology (SUSTech). My research sits at the intersection of artificial intelligence, real-time high-rate GNSS, and seismic hazard monitoring.
 
-        My work focuses on bringing modern deep learning architectures (such as CNNs and Transformers) into geoscience data analysis. I am building a data-driven real-time processing system to capture crustal deformation signals from high-rate GNSS streams, improving the timeliness of earthquake early warning and magnitude estimation. With a solid undergraduate background in computer science, I enjoy solving complex scientific problems with an engineering mindset and advancing AI for Science in disaster mitigation.
+        I work on extracting seismic displacement and crustal deformation signals from real-time GNSS streams, using deep learning models such as CNNs and Transformers for low-latency detection and rapid magnitude estimation. Around this goal, I am building research workflows that combine RTPPP, PPP-B2b corrections, stream processing, and reproducible experimentation.
 
-        Outside research, I am a Linux power user and open-source enthusiast. I like exploring efficient developer tools, enjoy building with Python and C++, and share my learnings through technical writing.
+        I aim to connect engineering implementation with geoscience questions, advancing data-driven geodesy for earthquake early warning and disaster mitigation. I welcome collaboration on AI for Science, real-time GNSS, and geoscience big data.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -31,19 +31,15 @@ sections:
         shape: circle
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research'
       subtitle: 'Data-Driven Geodesy'
       text: |-
-        My research focuses on the intersection of real-time GNSS (RT-GNSS) and Artificial Intelligence (AI).
-        
-        I work on a key challenge in geohazard monitoring: **how to use deep learning to quickly and accurately detect seismic signals from high-rate real-time GNSS streams and estimate magnitudes?**
+        My research centers on one question: **how can real-time high-rate GNSS data and deep learning support low-latency earthquake early warning and rapid magnitude estimation?**
 
-        Key directions:
-        * **Real-time streaming:** Real-time precise point positioning (RTPPP) data-stream cleaning and processing on Linux with RTKLIB/BNC, supporting BeiDou-3 PPP-B2b broadcast corrections for real-time augmentation.
-        * **Deep learning modeling:** Hybrid CNN + Transformer architectures to extract spatiotemporal features from GNSS time series.
-        * **Disaster mitigation:** Low-latency, high-reliability models for earthquake early warning (EEW) and rapid magnitude estimation.
-
-        Collaboration is welcome if you are interested in AI for Science or geoscience big data.
+        I currently focus on three directions:
+        * **Real-time GNSS pipelines:** Stream cleaning, positioning, and quality control with Linux, RTKLIB/BNC, and RTPPP, including BeiDou-3 PPP-B2b broadcast corrections for real-time augmentation.
+        * **Geoscience time-series modeling:** CNN, Transformer, and hybrid architectures for extracting spatiotemporal features and post-seismic responses from GNSS displacement series.
+        * **Earthquake early warning applications:** Data-driven methods for low-latency detection, rapid magnitude estimation, and uncertainty-aware decision support in disaster mitigation.
     design:
       columns: '1'
   - block: collection
