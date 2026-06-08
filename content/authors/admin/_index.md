@@ -80,13 +80,13 @@ languages:
     percent: 80
 awards:
   - title: 年会优秀口头（闪送）报告
-    url: /uploads/changsha-award-2026.pdf
+    url: /authors/admin/changsha-award-2026.pdf
     date: '2026-04-20'
     awarder: 大地测量与导航2026综合学术年会暨时空信息与大地测量研讨会
     summary: |
       报告《基于北斗三号 PPP-B2b 同震位移与深度学习的震级快速估算——以 2025 年定日 Mw 7.1 和曼德勒 Mw 7.7 地震为例》被评选为年会优秀口头（闪送）报告。
 
-      [查看证书 PDF](/uploads/changsha-award-2026.pdf)
+      [查看证书 PDF](/authors/admin/changsha-award-2026.pdf)
 
   - title: 年会优秀口头（闪送）/ 张贴报告奖
     url: ''
