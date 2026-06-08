@@ -83,9 +83,7 @@ awards:
     date: '2026-04-20'
     awarder: Geodesy & Navigation Comprehensive Academic Annual Meeting 2026 and Symposium on Spatiotemporal Information and Geodesy
     summary: |
-      The presentation "Rapid Magnitude Estimation Using BeiDou-3 PPP-B2b Coseismic Displacements and Deep Learning: Case Studies of the 2025 Dingri Mw 7.1 and Mandalay Mw 7.7 Earthquakes" was selected as an Outstanding Oral (Lightning Talk) Presentation.
-
-      [View certificate PDF](/authors/admin/changsha-award-2026.pdf)
+      ![Certificate](/authors/admin/changsha-award-2026.jpg)
 
   - title: Outstanding Oral (Lightning Talk) / Poster Presentation Award
     url: ''
